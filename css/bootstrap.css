@@ -221,7 +221,8 @@ textarea {
           box-sizing: border-box;
 }
 
-body {
+body {  
+  background: #EED5B7;
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -229,6 +230,11 @@ body {
   color: #333333;
   background-color: #ffffff;
 }
+
+.newcor{
+  background: #EED5B7;
+}
+
 
 a {
   color: #0088cc;
@@ -3789,6 +3795,7 @@ input[type="submit"].btn.btn-mini {
           border-radius: 0 0 6px 6px;
 }
 
+
 .alert {
   padding: 8px 35px 8px 14px;
   margin-bottom: 20px;
@@ -3817,6 +3824,8 @@ input[type="submit"].btn.btn-mini {
   background-color: #dff0d8;
   border-color: #d6e9c6;
 }
+
+
 
 .alert-danger,
 .alert-error {
